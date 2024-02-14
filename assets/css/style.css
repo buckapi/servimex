@@ -1978,7 +1978,7 @@ div#mCSB_1_container{
 
 .banner-carousel .owl-dots button.active:before{
   position: absolute;
-  content: counter(slides-num);
+  /* content: counter(slides-num); */
 }
 
 .banner-carousel .owl-dots button.active:after{
@@ -3332,6 +3332,8 @@ div#mCSB_1_container{
 .case-block-one .inner-box .image-box .image img{
   width: 100%;
   transition: all 500ms ease;
+  border-radius: 50%;
+height: 250px;
 }
 
 .case-block-one .inner-box:hover .image-box .image img{
@@ -3484,7 +3486,7 @@ div#mCSB_1_container{
   position: absolute;
   right: 0px;
   top: 53px;
-  content: "0" counter(slides-num);
+ /*  content: "0" counter(slides-num); */
   display: inline-block;
   font-size: 24px;
   color: #a9a6a5;
@@ -3519,12 +3521,12 @@ div#mCSB_1_container{
 
 .case-section .owl-dots button.active:before{
   position: absolute;
-  content: counter(slides-num);
+  /* content: counter(slides-num); */
 }
 
 .case-section .owl-dots button.active:after{
   position: absolute;
-  content: '0';
+ /*  content: '0'; */
   top: 0px;
   right: 0px;
 }
@@ -5865,7 +5867,7 @@ div#mCSB_1_container{
 
 .case-style-two .owl-dots button.active:before{
   position: absolute;
-  content: counter(slides-num);
+  /* content: counter(slides-num); */
 }
 
 .case-style-two .owl-dots button.active:after{
@@ -6284,7 +6286,7 @@ div#mCSB_1_container{
 
 .testimonial-style-two .owl-dots button.active:before{
   position: absolute;
-  content: counter(slides-num);
+  /* content: counter(slides-num); */
 }
 
 .testimonial-style-two .owl-dots button.active:after{
@@ -7234,7 +7236,7 @@ div#mCSB_1_container{
 
 .banner-style-three .owl-dots button.active:before{
   position: absolute;
-  content: counter(slides-num);
+  /* content: counter(slides-num); */
 }
 
 .banner-style-three .owl-dots button.active:after{
